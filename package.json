@@ -1,0 +1,32 @@
+{
+  "name": "tdd-bootstrap",
+  "version": "1.0.0",
+  "description": "bootstrap repo for TDD workshop",
+  "type": "module",
+  "scripts": {
+    "test": "node --test-reporter=spec --test 'src/**/*.spec.ts'",
+    "test:watch": "node --watch --test-reporter=spec --test 'src/**/*.spec.ts'",
+    "typecheck": "tsc",
+    "typecheck:watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerardo-lima-moonfare/tdd-bootstrap.git"
+  },
+  "keywords": [
+    "tdd",
+    "test",
+    "typescript",
+    "node"
+  ],
+  "author": "gerardo.lima@moonfare.com",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/gerardo-lima-moonfare/tdd-bootstrap/issues"
+  },
+  "homepage": "https://github.com/gerardo-lima-moonfare/tdd-bootstrap#readme",
+  "dependencies": {
+    "@types/node": "^22.13.13",
+    "typescript": "^5.8.2"
+  }
+}
